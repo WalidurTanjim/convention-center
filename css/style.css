@@ -79,9 +79,12 @@ li{
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(4, 1fr);
 }
-.card{
+.pricing-card{
     box-shadow: 0 0 10px #808080;
     transition: .5s;
+}
+.pricing-card:hover{
+    transform: translateY(-15px);
 }
 .card-matter{
     margin-bottom: 10px;
@@ -89,4 +92,29 @@ li{
 .card-body a{
     display: inline-block;
     margin-top: 20px;
+}
+
+
+
+/* ===== client-card ===== */
+#happy-clients{
+    padding-bottom: 100px;
+}
+.client-card{
+    box-shadow: 0 0 15px #808080;
+}
+.client-row{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-body img{
+    margin: 15px 0;
+}
+.client-name{
+    margin-bottom: 10px;
+}
+.profecion{
+    color: #808080;
 }
