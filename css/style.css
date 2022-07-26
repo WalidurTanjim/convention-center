@@ -66,3 +66,27 @@ li{
 .precious-btn i{
     padding-left: 10px;
 }
+
+
+
+/* ===== cards ===== */
+#cards{
+    padding-bottom: 100px;
+}
+.card-row{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    box-shadow: 0 0 10px #808080;
+    transition: .5s;
+}
+.card-matter{
+    margin-bottom: 10px;
+}
+.card-body a{
+    display: inline-block;
+    margin-top: 20px;
+}
